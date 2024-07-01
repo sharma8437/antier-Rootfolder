@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+
+            /* border: 2px solid red; */
+            
+
+
+        }
+
+        .main-box{
+
+           
+
+/* border: 2px solid red; */
+display: flex;
+margin-top: 100px;
+width: 400px;
+
+
+
+
+
+}
+        
+        .box1{
+
+border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            transform: rotateX(30deg) rotateY(40deg);
+            background-color: azure;
+
+            
+
+
+        }
+
+        
+        .box2{
+
+border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            transform: rotateX(-30deg) rotateY(30deg);
+            
+            background-color: gray;
+            position: relative;
+            left: -38px;
+            /* top: 50px; */
+            top: 8px;
+           
+        }
+       
+
+      
+
+       
+
+        .main-box:hover{
+
+            transform: rotateY(120deg);
+            transition-property:transform;
+            transition-timing-function: e;
+            transition-duration: 4s;
+            /* transform-origin:70%; */
+            /* transform-origin: 0% 50%; */
+            transition-delay: 0.1s;
+            
+
+
+
+        }
+
+
+
+
+        /* form */
+
+         .form{
+
+            /* border: 2px solid red; */
+            width: 500px;
+            height: 300px;
+            margin-top: 90px;
+        }
+
+        .form1
+        {
+            margin-top: 30px;
+        }
+
+        .form2{
+
+            margin-top: 30px;
+        }
+
+        .t1:focus{
+
+            width: 300px;
+        }
+        .sum{
+
+            margin-top: 30px;
+            
+        }
+        .submit{
+
+            width: 100px;
+
+
+        } */
+         */
+
+
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-box">
+
+            
+            <div class="box1"></div>
+            <div class="box2"></div>
+            
+        </div>
+    </div>
+
+    <div class="form">
+        
+
+        
+
+        <form action="">
+            <fieldset>
+
+            <legend>MY form </legend>
+
+            
+            <div class="form1">
+                
+                
+                <label for=" username"> Username</label><br>
+                <input type="text" name="username" id="username" class="t1">
+                
+                
+            </div>
+            <div class="form2">
+                
+                <label for=" password"> password</label><br>
+                
+                <input type="password" name="password" id="password" class="t1">
+            </div>
+            <div class="sum">
+
+                <input type="submit" name="submit" class="submit">
+            </div>
+            
+            
+            
+            
+            
+        </form>
+    </fieldset>
+        </div>
+    
+</body>
+</html>

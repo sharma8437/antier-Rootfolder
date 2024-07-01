@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     
+      h1{
+
+        /* max-width: 500px; */
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        
+      }
+h1::before{
+
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+h1::after{
+
+content: "";
+width: 120px;
+height: 3px;
+display: block;
+background: black;
+position: absolute;
+top: 50%;
+right: 0;
+}
+
+p{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    font-size: 30px;
+    /* border: 2px solid red; */
+}
+p::before{
+
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: block;
+    background: blueviolet;
+    position: absolute;
+    top: 50%;
+}
+p::after{
+
+content: "";
+width: 120px;
+height: 4px;
+display: block;
+background: blueviolet;
+position: absolute;
+top: 50%;
+right: 0;
+}
+
+/* button hover style code start */
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+}
+
+button::before{
+
+    content:"";
+    width: 200px;
+    height: 5px;
+    background: green;
+    position: absolute;
+    left: 400px;
+    top: 50%;
+
+}
+button::after{
+
+content: "";
+width: 200px;
+height: 5px;
+background: green;
+position: absolute;
+right: 400px;
+top: 50%;
+
+}
+button{
+     
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+/* .container button:hover{
+
+background-color: gray;
+
+
+
+
+
+
+
+   
+   
+} */
+
+button:hover::after, :hover::before{
+
+background-color: gray;
+display: none;
+
+
+
+
+ 
+   
+}
+h2{
+    text-align: center;
+}
+
+
+.li{
+width: 200px;
+    height: 5px;
+    background: green;
+}
+
+
+.sum:hover{
+
+    display: none;
+}
+  
+      
+
+
+
+
+    </style>
+</head>
+<body>
+
+<h1>This is line</h1>
+
+
+<p> This is line</p>
+
+<div class="container">
+
+  
+    <button>Button </button> 
+
+    
+</div>
+<h2>Hover on button </h2>
+
+
+
+    
+</body>
+</html>

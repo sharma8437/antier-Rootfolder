@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+
+        .main{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+
+            width: 200px;
+            height: 200px;
+
+        }
+        .box1{
+
+            background-color: rgb(165, 202, 235);
+            /* transform: rotateY(0deg); */
+            transition: transform 1s linear 1s;
+        }
+        .box2{
+
+            background-color: rgb(234, 171, 88);
+            transform: rotateY(90deg);
+            transition: transform 1s linear 1s;
+            position: relative;
+            left: -90px;
+
+
+        }
+        /* .box2:hover{
+
+            transform: rotateX(90deg);
+        } */
+        .box1:hover{
+
+            transform: rotateY(30deg);
+        }
+        .box1:hover + .box2{
+            transform: rotateY(0deg);
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+    </div>
+
+
+    
+</body>
+</html>
+

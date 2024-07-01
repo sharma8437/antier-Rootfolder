@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+
+    <style>
+
+        .container{
+
+            /* border: 2px solid red; */
+            height: 60px;
+            display: flex;
+            width: 400px;
+            justify-content: space-evenly;
+            margin: auto;
+            margin-top: 300px;
+        }
+        
+        img{
+            filter: grayscale(100%);
+            width: 70px;
+            height: 80px;
+            /* border: 2px solid black; */
+            border-radius: 5px;
+        }
+        .img1:hover {
+
+content: url("flower.png");
+width: 200px;
+height: 200px;
+filter: none;
+
+
+            
+        }
+        .img2:hover {
+
+content: url("insta.png");
+width: 200px;
+height: 200px;
+filter: none;
+            
+        }
+        .img3:hover {
+
+content: url("flower2.png");
+width: 200px;
+height: 200px;
+filter: none;
+            
+        }
+        .img4:hover {
+
+content: url("facbook.png");
+width: 200px;
+height: 200px;
+filter: none;
+            
+        }
+        .img5:hover {
+
+content: url("whatsapp.png");
+width: 200px;
+height: 200px;
+filter: none;
+            
+        }
+
+        .container2{
+
+            width: 400px;
+            height: 300px;
+            border: 2px solid red;
+            margin-top: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        button{
+            /* text-align: center; */
+            width: 140px;
+            height: 40px;
+            font-size: 20px
+        }
+        button ::before{
+
+            content: "";
+            width: 60px;
+            height: 5px;
+            background-color: black;
+            display: block;
+        }
+
+      
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="box1">
+            <img src="flower.png" alt="" class="img1">
+        </div>
+        <div class="box2">
+            <img src="insta.png" alt="" class="img2">
+        </div>
+        <div class="box3">
+            <img src="flower2.png" alt="" class="img3">
+        </div>
+        <div class="box4">
+            <img src="facbook.png" alt="" class="img4">
+        </div>
+        <div class="box4">
+            <img src="whatsapp.png" alt="" class="img5">
+        </div>
+
+
+    </div>
+
+    <div class="container2">
+
+        <button>Button</button>
+        
+    </div>
+    
+</body>
+</html>

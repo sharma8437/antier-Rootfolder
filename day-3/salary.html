@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+div{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(240, 243, 240);
+    margin-left: 430px;
+    margin-top: 40px;
+}
+
+.text{
+
+    font-size: 20px;
+   
+}
+div>h3{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    
+}
+.form{
+    border: none;
+
+}
+form input{
+    margin-left: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div> 
+
+        <h3>For salary calculation</h3>
+        <fieldset class="form">
+            
+            <form action="#" method="post" oninput="ppf.value= parseInt(ts.value) * parseInt(pf.value)/100; gSal.value= parseInt(ts.value) - parseInt(ppf.value)">
+                
+                
+                <label for="ts" class="text"> Total sal = </label>
+                <input type="text" id="ts"><br>
+                
+                <label for="pf" class="text"> Pf deduction in persentage%=</label>
+                
+                 <input type="text" id="pf"><br>
+                 
+                 <br><label class="text"> Pf ammount= <input type="text" id="ppf"></label><br>
+                
+                
+                <!-- <output id="sum" for="ts pf"></output><br> -->
+                <label for="gSal" class="text">Your gross salary=</label>
+                <input type="text" id="gSal">
+
+                    
+                    
+                    
+                    
+                </form>
+            </fieldset>
+        </div>
+
+       
+
+    </body>
+
+</html>

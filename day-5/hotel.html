@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: arial;
+        }
+
+        header {
+            width: 100%;
+            height: 60px;
+            background-color: rgb(33, 32, 32);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+            position: fixed;
+        }
+
+        .logo1 {
+
+            /* font-size: 25px; */
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1px;
+            font-size: 24px;
+        }
+
+        nav li {
+
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        ul li a {
+
+
+            text-decoration: none;
+            color: white;
+            padding: 0px 18px;
+            font-size: 16px;
+background-color: aquamarine;
+height: 30px;
+        }
+
+
+        .home {
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            background: url('hotel.jpg') no-repeat center center/cover;
+            /* opacity: 0.95; */
+            
+        }
+       
+
+        h1 {
+
+            font-size: 40px;
+            text-align: center;
+            /* padding: 4px 2px; */
+            color: white;
+            margin-top: 180px;
+           
+
+        }
+
+        .text-1 {
+            text-align: center;
+          
+            color: white;
+            line-height: 40px;
+            font-size: 15px;
+            
+        }
+        .sp1{
+            color: rgb(241, 152, 34);
+        }
+
+        .button{
+
+            font-size: 25px;
+            /* margin: 80px 0px; */
+            /* border-radius: 12px; */
+            height: 45px;
+            width: 180px;
+            margin-top: 23px;
+            background-color: rgb(39, 38, 38);
+            color: rgb(217, 214, 214);
+            text-align: center;
+          padding: 6px 0px;
+            
+            
+
+        }
+        #btn{
+            text-decoration: none;
+            color: white;
+            
+            
+        }
+
+        /* secand page style  */
+        article{
+
+            /* border: 2px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+            padding: 120px 0px;
+           
+        }
+        .box-1{
+
+            /* border: 2px solid black; */
+            width: 50%;
+            height: 430px;
+            background: url('img1.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .box-2{
+
+/* border: 2px solid rgb(209, 108, 108); */
+width: 50%;
+height: 430px;
+background-color: rgb(129, 125, 125);
+}
+
+h2{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.history-text{
+    color: rgb(241, 152, 34);
+   
+}
+.text-2{
+    word-spacing: 2px;
+    padding: 2px 50px;
+    color: whitesmoke;
+    line-height: 26px;
+    padding: auto;
+    
+}
+.btn2{
+
+   
+    /* display: inline-block; */
+    
+    text-align: center;
+}
+.read-more{
+
+    text-align: center;
+    
+}
+
+.box-3{
+
+    border: 2px solid red;
+    width: 33.33%;
+
+    height: 250px;
+}
+.box-4{
+    border: 2px solid red;
+    width: 33.33%;
+
+    height: 250px;
+}
+.box-5{
+    border: 2px solid red;
+    width: 33.33%;
+    height: 250px;
+}
+ /* a:hover{
+    color: aquamarine;
+    
+    height: 30px;
+} */
+
+
+
+
+
+    
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p class="logo1">HBT</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+
+
+        <h1><span class="sp1">Enjoy</span> Your day</h1>
+        <p class="text-1">Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facilis, velit modi .</p>
+        <p class="button"><a href="#" id="btn">Order Now</a></p>
+
+
+
+    </section>
+    <article>
+
+        <div class="box-1">img1</div>
+        <div class="box-2">
+
+<h2><span class="history-text">The History</span> Of Our Hotel</h2>
+
+<p class="text-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda aliquam dolor alias iste autem, quaerat magni unde accusantium qui fuga placeat quidem quo pariatur, voluptatum, ea sequi? Corporis, explicabo quisquam dolor placeat praesentium nesciunt mollitia quos nobis natus voluptatum asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, sapiente distinctio natus molestias ab excepturi? Lorem ipsum dolor sit Lorem ipsum dolor sit amet</p>
+<div class="btn2">
+
+    
+    <button class="read-more"> Read More</button>
+</div>
+
+        </div>
+        <div class="box-3">img3</div>
+        <div class="box-4">img3</div>
+        <div class="box-5">img3</div>
+    </article>
+
+</body>
+
+</html>

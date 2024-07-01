@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+section{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+   
+}
+
+.form-container{
+
+    /* border: 2px solid red; */
+    width: 800px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+   
+}
+h1{
+    font-size: 30px;
+   padding: 4px 0px ;
+}
+
+.same{
+
+    font-size: 15px;
+    
+
+}
+div input{
+
+    height: 30px;
+    width: 780px;
+}
+p{
+    padding: 6px 0px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 780px;
+}
+#btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+   color: whitesmoke;
+   background-color: rgb(81, 79, 79);
+  
+}
+
+#text{
+    color: rgb(240, 158, 52);
+
+}
+
+/* footer style  */
+
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+   width: 100%;
+   height: 150px;
+    justify-content: space-between;
+    background-color: rgb(241, 236, 236);
+}
+.same1{
+
+    width: 600px;
+    height: 150px;
+    /* border: 2px solid red */
+}
+.logo img{
+
+    width: 50px;
+    height: 50px;
+    /* float: right; */
+   
+    display: block;
+    margin-left: 310px;
+    margin-top: 13px;
+}
+.mid{
+    width: 225px;
+}
+#loc{
+    margin-left: 392px;
+    /* margin-top: 13px; */
+
+}
+.p1{
+    /* margin-left: 320px; */
+    text-align: right;
+    padding: 15px 2px;
+
+}
+div img{
+     width: 60px;
+     height: 40px;
+    margin-top: 20px;
+    padding-left: 90px;
+     
+}
+#num{
+
+    margin-left: 62px;
+
+}
+.number{
+    padding: 12px 59px;
+}
+#email1{
+    padding-left: 70px;
+}
+.email-add{
+    padding-left: 30px;
+
+}
+.copy{
+    width: 100%;
+    height:62px;
+    /* border: 2px solid red; */
+    background-color: rgb(81, 81, 76);
+}
+.copy1{ color: rgb(222, 217, 217);
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section>
+
+        <div class="form-container">
+
+            <h1><span id="text">Contact</span> Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form action="#">
+
+                <label for="name" class="same"> Name</label><br>
+                <input type="text" name="name" id="name"><br><br>
+                <label for="email" class="same">Email</label><br>
+                <input type="text" name="email" id="email"><br><br>
+                
+                <label for="massage" class="same">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+
+                <input type="submit" value="Submit" id="btn">
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="box1 same1">
+                <div class="logo"> <img src="location.png ">
+                    <h4 id="loc">Location</h4>
+                
+                </div>
+                <p class="p1">50min from chandigarh( mohali sector 65, punjab)</p>
+
+                
+            </div>
+            <div class="box2 same1 mid">
+                <img src="phone.png" alt="">
+                <h4 id="num">Phone Number</h4>
+                <p class="number">+918437252529</p>
+
+
+            </div>
+            <div class="box3 same1">
+
+                <img src="email.png" alt="">
+                <h4 id="email1">Email Addres</h4>
+
+                <p class="email-add">nikeshsharma100100@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="copy"><p class="copy1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nam?</p> </div>
+    </footer>
+    
+</body>
+</html>

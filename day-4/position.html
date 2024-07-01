@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+
+    <style>
+.container{
+
+    border: 4px solid red;
+    background-color: orange;
+}
+
+/* div p{
+
+    border: 2px solid black;
+} */
+
+p{
+    
+    border: 2px solid black;
+    height: 30px;
+    font-size: 18px;
+}
+.absolutely{
+    
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 85%;
+    height: 60px;
+}
+#pp{
+    height: 30px;
+    width: 70%;
+    position: absolute;
+    left: 60px;
+    top: 70px;
+}
+#ab{
+   
+    position: absolute;
+    left: 200px;
+    top: 202px;
+
+}
+
+/* start style for task-2 */
+
+.container1{
+
+    border: 2px solid red;
+    width: 550px;
+    height: 550px;
+}
+
+  div div{
+
+    border: 2px solid rebeccapurple;
+
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 9px;
+    
+
+}
+
+.box-1{
+
+    background-color: rgb(86, 208, 212);
+    position: relative;
+   top: 120px;
+   z-index: 1;
+}
+
+.box-2{
+
+    background-color: rgb(163, 163, 241);
+    position: relative;
+    bottom: 65px;
+    
+    
+
+}
+
+.box-3{
+
+    background-color: rgba(165, 42, 42, 0.638);
+    position: relative;
+    bottom: 40px;
+}
+
+.box-4{
+
+    background-color: rgb(56, 56, 238);
+
+}
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <p>This is a normal paragraph</p>
+    <p>This is a normal paragraph</p>
+    <p class="absolutely" id="pp"> This is an absolutely positioned at 40px top and 60px left.</p>
+
+   <div class="container">
+
+<p>This paragraph is inside the div element.</p>
+<p>This paragraph is inside the div element.</p>
+<p class="absolutely" id="ab">This is an absolutely position paragraph inside the div element at 40px top and 60px left.</p>
+
+   </div>
+   <br><br>
+
+   <h2>Task-2 z-index</h2>
+
+   <div class="container1">
+
+<div class="box-1">one</div>
+<div class="box-2">two</div>
+<div class="box-3">three</div>
+<div class="box-4">four</div>
+
+
+
+
+   </div>
+
+
+    
+</body>
+</html>

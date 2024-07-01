@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .con{
+
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            border-radius: 50%;
+            background-color: beige;
+            margin-top: 50px;
+        }
+
+        .nidal{
+
+             height:3px;
+             width: 100px;  
+            border: 1px solid black;
+            background-color: black;
+            border-radius: 12px 0px 0px 10px;
+            /* border-top: none; */
+            /* border-right: none; */
+            /* border-bottom: none; */
+            /* float: right; */
+            transform-origin: 0% 100%;
+            animation-name: watch;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: relative;
+            top: 139px;
+            left: 150px;
+
+        }
+
+        @keyframes watch{
+
+            from{
+
+                transform: rotate(0deg);
+            }
+
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="con">
+
+        <div class="nidal"></div>
+    </div>
+    
+</body>
+</html>
